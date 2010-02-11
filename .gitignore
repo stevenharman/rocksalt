@@ -1,0 +1,6 @@
+pkg
+~$*
+*.tmp
+*.eprj
+.idea
+.DS_Store
