@@ -1,0 +1,5 @@
+h1. RockSalt: A .NET Assembly Manager Using RubyGems
+
+more info to come soon.
+
+see LISCENSE.txt for copyright and license agreement info.
