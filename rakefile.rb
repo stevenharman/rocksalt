@@ -18,7 +18,7 @@ namespace :jeweler do
     gs.description = "Manage your .NET reference assemblies by downloading gem packages, and coping the project assembly to your solution library."
     gs.email = "derickbailey@gmail.com"
     gs.homepage = "http://github.com/derickbailey/rocksalt"
-    gs.authors = ["Derick Bailey"]
+    gs.authors = ["Derick Bailey", "Josh Flanagan"]
     gs.has_rdoc = false  
     gs.files.exclude("rocksalt.gemspec", ".gitignore", "spec/support/Tools")
 
