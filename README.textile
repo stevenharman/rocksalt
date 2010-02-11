@@ -3,3 +3,21 @@ h1. RockSalt: A .NET Assembly Manager Using RubyGems
 more info to come soon.
 
 see LISCENSE.txt for copyright and license agreement info.
+
+h2. Build The RockSalt Gem:
+
+Run this to build the gem
+
+<pre><code>rake jeweler:gemspec jeweler:build</code></pre>
+
+h2. Install The RockSalt Gem:
+
+Run this to install the gem after building it
+
+<pre><code>gem install -l pkg/rocksalt-0.1.0.gem</code></pre>
+
+h2. Run RockSalt
+
+<pre><code>rocksalt -h</code></pre>
+
+<pre><code>rocksalt --lib libs/ mypackage anotherpackage etc</code></pre>
