@@ -1,12 +1,6 @@
-require 'commandline'
+$: << File.expand_path(File.dirname(__FILE__))
 
-module RockSalt
-	
-  class DropSpreader
-    def initialize()
-      opts = Commandline.parse
-      puts opts
-    end
-  end
-	
-end
+require 'commandline'
+require 'dropspreader'
+
+RockSalt::DropSpreader.run()
